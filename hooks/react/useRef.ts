@@ -7,7 +7,7 @@
  * console.log(ref.current); // 0
  * ref.current = 1;
  * console.log(ref.current); // 1
- **/
+ */
 const useRef = <T>(initialValue: T): { current: T } => {
   let value = initialValue;
   const subscribers = new Set<() => void>();

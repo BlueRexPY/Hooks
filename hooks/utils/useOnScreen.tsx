@@ -17,7 +17,7 @@ interface OnScreenOptions {
  *  <div ref={ref}>
  *   {isOnScreen ? 'In viewport' : 'Not in viewport'}
  *  </div>
- **/
+ */
 
 const useOnScreen = (ref: RefObject<HTMLElement>, options: OnScreenOptions = {}): boolean => {
   const [isIntersecting, setIntersecting] = useState(false);

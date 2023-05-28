@@ -14,8 +14,8 @@ type Dispatch<A> = (value: A) => void;
  * setCount((prevCount) => prevCount + 1);
  * setCount((prevCount) => prevCount + 1);
  * console.log(count); // 3
- **/
-const useState = <S,>(initialState: S | (() => S)): [S, Dispatch<SetStateAction<S>>] => {
+ */
+const useState = <S>(initialState: S | (() => S)): [S, Dispatch<SetStateAction<S>>] => {
   const stateRef = useRef<S>(typeof initialState === 'function' ? (initialState as () => S)() : initialState);
 
   const setState: Dispatch<SetStateAction<S>> = (action) => {
