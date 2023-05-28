@@ -29,6 +29,7 @@ const useSignal = <T,>(initialValue: T): { value: T } => {
       set: (_, property, value) => {
         if (property === 'value') {
           valueRef.current.value = value;
+          notify();
           return true;
         }
         return false;
