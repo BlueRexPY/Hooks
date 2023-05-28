@@ -3,5 +3,9 @@
 Favorite custom react hooks
 
 plan:
-usePageProgress
+useInput
+useHover
+useScroll/useInfinitePagination
+useDebounce
+useRequest
 and react hooks
