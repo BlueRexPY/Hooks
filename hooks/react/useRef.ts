@@ -1,7 +1,7 @@
 /**
  * useRef hook
- * @param {T} initialValue
- * @returns {{ current: T }}
+ * @param {T} initialValue - The initial value for the ref.
+ * @returns {{ current: T }} - An object with a `current` property that holds the current value of the ref.
  * @example
  * const ref = useRef(0);
  * console.log(ref.current); // 0

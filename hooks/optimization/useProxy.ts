@@ -3,8 +3,13 @@ import { useCallback, useRef, useState } from 'react';
 
 /**
  * useProxy hook
- * @param {object} obj
- * @returns {object}
+ * @param {object} obj - The object to create a proxy for.
+ * @returns {object} - A proxied object that triggers updates when properties are accessed or modified.
+ * @example
+ * const obj = useProxy({ count: 0 });
+ * console.log(obj.count); // 0
+ * obj.count = 1;
+ * console.log(obj.count); // 1
  */
 const useProxy = <T extends object>(obj: T): T => {
   const [, setUpdate] = useState<number>(0);
