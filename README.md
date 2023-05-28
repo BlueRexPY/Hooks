@@ -3,8 +3,6 @@
 Favorite custom react hooks
 
 plan:
-useInput
-useHover
 useScroll/useInfinitePagination
 useDebounce
 useRequest

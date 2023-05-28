@@ -2,7 +2,6 @@ import { ChangeEvent, useState } from 'react';
 
 /**
  * useInput is a custom hook that provides a controlled input value and onChange handler.
- *
  * @template T
  * @param {T} initialValue - The initial value of the input.
  * @returns {{ value: T, onChange: (event: ChangeEvent<HTMLInputElement>) => void }} - An object with the input value and onChange handler.
