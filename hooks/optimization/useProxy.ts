@@ -2,7 +2,7 @@
 import { useCallback, useRef, useState } from 'react';
 
 /**
- * useProxy hook
+ * useProxy hook is a proxy-based state management hook.
  * @param {object} obj - The object to create a proxy for.
  * @returns {object} - A proxied object that triggers updates when properties are accessed or modified.
  * @example

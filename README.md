@@ -1,11 +1,9 @@
 # Hooks
+
 Favorite custom react hooks
 
-
-paln: 
-useLocalStorage
-useMemoCompare
+plan:
 usePrevious
 useErrorBoundary
 usePageProgress
-and react hooks 
+and react hooks

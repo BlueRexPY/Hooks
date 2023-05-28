@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 
 /**
- * useThrottle hook.
+ * useThrottle hook is a custom hook that throttles a function.
  * @template T
  * @param {function(...args: any[]): T} callback - The function to throttle.
  * @param {number} delay - The delay in milliseconds.

@@ -3,8 +3,8 @@ import useRef from './useRef';
 import useState from './useState';
 
 /**
- * useSignal hook
- * @template T - The type of the value.
+ * useSignal hook is a custom hook that returns a mutable value.
+ * @template T
  * @param {T} initialValue - The initial value.
  * @returns {{ value: T }} - An object with the mutable value.
  * @example

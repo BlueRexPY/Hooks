@@ -5,7 +5,7 @@ type SetStateAction<S> = S | ((prevState: S) => S);
 type Dispatch<A> = (value: A) => void;
 
 /**
- * useState hook
+ * useState hook is a custom implementation of the state hook.
  * @template S
  * @param {S | (() => S)} initialState - initial state
  * @returns {[S, Dispatch<SetStateAction<S>>]} - [S, Dispatch<SetStateAction<S>>] state and setState

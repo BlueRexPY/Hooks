@@ -1,5 +1,5 @@
 /**
- * useRef hook
+ * useRef hook is a proxy-based implementation of the useRef hook.
  * @template T
  * @param {T} initialValue - The initial value for the ref.
  * @returns {obj} - { current: T } An object with a `current` property that holds the current value of the ref.

@@ -3,10 +3,10 @@ import { useState } from 'react';
 import { cloneDeep, isEqual } from 'lodash';
 
 /**
- * useDeepClone hook
+ * useDeepClone hook is a custom hook that returns a deep clone of an object.
  * @template T
- * @param {T} obj - object to be cloned
- * @returns {[T, (newValue: T) => void]} cloned object and setter
+ * @param {T} obj - object to be cloned.
+ * @returns {[T, (newValue: T) => void]} cloned object and setter.
  * @example
  * const [obj, setObj] = useDeepClone({ a: 1 });
  * setObj({ a: 1 }); // obj is not updated

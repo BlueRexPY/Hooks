@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 
 /**
- * useLocalStorage hook
- * @template T - The type of the value.
+ * useLocalStorage hook is a custom hook that returns a value from local storage.
+ * @template T
  * @param {string} key - The key used to store the value in local storage.
  * @param {T} initialValue - The initial value.
  * @returns {[T, (value: T) => void]} - A tuple containing the current value and a function to update it.

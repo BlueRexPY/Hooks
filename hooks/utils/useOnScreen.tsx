@@ -6,7 +6,7 @@ interface OnScreenOptions {
 }
 
 /**
- *  useOnScreen hook
+ *  useOnScreen hook is a custom hook that returns true if an element is in the viewport.
  *  @param {RefObject<HTMLElement>} ref - React ref
  *  @param {OnScreenOptions} options - IntersectionObserver options
  *  @returns {boolean} isIntersecting - true if element is in viewport
