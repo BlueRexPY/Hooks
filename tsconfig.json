@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2020",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "sourceMap": true,
+    "rootDir": ".",
+    "outDir": "build",
+    "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
+  }
+}
