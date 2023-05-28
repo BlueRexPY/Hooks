@@ -4,6 +4,7 @@ import { cloneDeep, isEqual } from 'lodash';
 
 /**
  * useDeepClone hook
+ * @template T
  * @param {T} obj - object to be cloned
  * @returns {[T, (newValue: T) => void]} cloned object and setter
  * @example

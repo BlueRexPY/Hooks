@@ -6,8 +6,9 @@ type Dispatch<A> = (value: A) => void;
 
 /**
  * useState hook
+ * @template S
  * @param {S | (() => S)} initialState - initial state
- * @returns {[S, Dispatch<SetStateAction<S>>]} state and setState
+ * @returns {[S, Dispatch<SetStateAction<S>>]} - [S, Dispatch<SetStateAction<S>>] state and setState
  * @example
  * const [count, setCount] = useState(0);
  * setCount(1);
