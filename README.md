@@ -1,3 +1,3 @@
 # Hooks
 
-Favorite custom react hooks
+My favorite custom react hooks
